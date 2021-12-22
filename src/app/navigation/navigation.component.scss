@@ -8,3 +8,17 @@
      Every toolbar row uses a flexbox row layout. */
   flex: 1 1 auto;
 }
+.toolbar-logo {
+  width: 54px;
+  height: 54px;
+  position: relative;
+  top: 5px;
+  filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.5));
+  z-index: -100;
+  clip-path: inset(-5px -5px -0px -5px);
+}
+.toolbar-title {
+  position: relative;
+  top: 8px;
+  margin-left: -24px;
+}
